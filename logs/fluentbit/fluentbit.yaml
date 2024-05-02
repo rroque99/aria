@@ -25,7 +25,7 @@ metadata:
 spec:
   serviceAccountName: fluentbit-sa
   packageRef:
-    refName: fluentbit.tanzu.vmware.com
+    refName: fluent-bit.tanzu.vmware.com
     versionSelection:
       constraints: 1.9.5+vmware.1-tkg.2
   values:
